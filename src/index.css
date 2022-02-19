@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.useText{
+  border: none;
+  background-color: #34D1BF;
+  color: white;
+  font-size: 4vh;
+  position: relative;
+  left: 20%;
+}
+ul{
+  list-style: none;
+  margin: 15px 20px 8px 20px;
+  padding: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 260px;
+  z-index: 2;
+}
+
+/*
+/ STYLING FOR TIMER BOX!
+*/
+.timer{
+  line-height: 15vh;
+  text-align: center;
+  background-color: #34D1BF;
+  color: white;
+  font-size: 10vh;
+  height: 16vh;
+  z-index: 1;
+  width: 100vw;
+  position: absolute;
+}
+
+#timerOnStyle{
+  height: 100vh;
+  position: relative;
+  line-height: 90vh;
+  font-size: 16vh;
+}
+
+.TimesBox{
+  position: relative;
+  left: 100px;
+  top: 55px;
+  height: 345px;
+  width: 280px;
+  background-color: #EFEFEF;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.timeElement{
+  background-color: #34D1BF;
+  display: flex;
+  height: 22.2px;
+  margin: 0;
+  padding: 3px;
+}
+#clearButton{
+  position: relative;
+  bottom: 0%;
+  border-radius: 4px;
+  background-color: #FFC857;
+  border: none;
+  width: 260px;
+  height: 30px;
+  font-size: 20px;
+}
+.clearButton:hover{
+
+  transform: scale(1.03);
+
+}
+
+/*
+/ STYLING FOR STATS BOX!
+*/
+.timeStatBox{
+  width: 500px;
+}
+
+.StatsBox{
+  position: relative;
+  left: 100px;
+  top: 80px;
+  height: 280px;
+  width: 280px;
+  background-color: #EFEFEF;
+  display: flex;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.buttonText{
+  position: relative;
+  background-color: #34D1BF;
+  left: 40%;
+  border-style: none;
+}
+
+.statsBoxText{
+  display: block;
+  margin: 10px;
+}
+
+.leftStatsBox{
+  text-align: right;
+  position: relative;
+  width: 50%;
+  height: 90%;
+  background-color: #EFEFEF;
+  top: 10%;
+  border-radius: 10px;
+}
+.rightStatsBox{
+  text-align: left;
+  height: 90%;
+  position: relative;
+  width: 50%;
+  background-color: #EFEFEF;
+  top: 10%;
+  border-radius: 10px;
+}
+/*
+* LINE GRAPH STYLING
+*/
+
+.lineChartBox{
+  position: relative;
+  background-color: #EFEFEF;
+  height: 740px;
+  width: 740px;
+  top: 10px;
+  border-radius: 15px; 
+}
+.lineChartBox1{
+  position: relative;
+  background-color: #EFEFEF;
+  height: 700px;
+  width: 700px;
+  left: 25px;
+  border:none;
+  top: 25px; 
+}
+
+/*
+* Container Styling
+*/
+
+.container{
+  display: flex;
+  height: 760px;
+  position: absolute;
+  top: 18vh;
+}
+
+.image{
+  position: relative;
+  left: 2%;
+  top: 20%;
+  height: 400px;
+  width: 400px;
+}
